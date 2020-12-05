@@ -18,10 +18,10 @@ spec:
       - name: simple-express
         image: sachinsharma1001/simple-express
         ports:
-        - containerPort: 8080
+        - containerPort: 8084
         livenessProbe:
           httpGet:
             path: /health
-            port: 8080
+            port: 8084
           initialDelaySeconds: 3
           periodSeconds: 3

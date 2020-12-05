@@ -8,9 +8,9 @@ metadata:
   selfLink: /api/v1/namespaces/default/services/my-app-2-svc
 spec:
   ports:
-  - port: 8080
+  - port: 8084
     protocol: TCP
-    targetPort: 8080
+    targetPort: 8084
   selector:
     app: my-app-2
   sessionAffinity: None
